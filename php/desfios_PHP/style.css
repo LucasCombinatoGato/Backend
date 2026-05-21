@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: #3F5EFB;
+    background: radial-gradient(circle,#3f5efb 0%, #6f58d7 22%, #9200ed 47%, #a251b0 80%, #fc466b 100%);
+
+    
+    /* Centralização Mágica */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+}
+
+#forms {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+    width: 40%;
+    max-width: 500px;
+    text-align: center;
+}
+#block {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+    width: 70%;
+    max-width: 500px;
+    text-align: center;
+}
+
+label{
+    background-color: #6f58d7;
+    padding: 2px 5px;
+    border-radius: 5px;
+    text-align: left;
+    font-size: 14px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    background-color: #fc466b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #b8344e;
+}
+
+table {
+    width: 100%;
+    margin-top: 15px;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 10px;
+    color: #333;
+}
+
+td {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: navy;
+}
+
+#numeros{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px 20px;
+    border-radius: 8px;
+}
+
+#unidade_n{
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    font-size: 28px;
+    margin: 12px;
+    box-shadow: inset -9px -4px 17px 1px black;
+}
+
+hr{
+    border-style: 2px none;
+    border-color: #9200ed;
+}
+
+#forms_2 {
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 30px;
+    width: 40%;
+}

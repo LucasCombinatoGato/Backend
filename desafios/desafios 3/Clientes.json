@@ -1,0 +1,27 @@
+{
+  "cliente": {
+    "id": 1,
+    "nome": "Maria Mato",
+    "cpf": "123.456.789-99",
+    "data_nascimento": "25-12-1999",
+    "ativo": true,
+    "pontos_fidelidade": 200,
+    "contato": {
+      "email": "Mariamato@gmail.com",
+      "telefone": "11999888777"
+    },
+    "endereco": {
+      "rua": "Rua Crispim",
+      "numero": 121,
+      "bairro": "Jardim das Rosas",
+      "cidade": "Americana",
+      "estado": "SP",
+      "cep": "01000-000",
+      "pais": "Brasil"
+    },
+    "preferencias": {
+      "receber_promocoes": true,
+      "formas_pagamento": ["cartao", "pix", "boleto"]
+    }
+  }
+}

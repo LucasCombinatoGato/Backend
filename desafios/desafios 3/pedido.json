@@ -1,0 +1,38 @@
+{
+  "pedido": {
+    "id": 5001,
+    "cliente_id": 101,
+    "data_pedido": "2026-04-14",
+    "status": "em_transporte",
+    "valor_total": 359.90,
+    "frete": 25.50,
+    "peso_kg": 2.3,
+    "status_fragil": true,
+    "endereco_entrega": {
+      "rua": "Rua das Flores",
+      "numero": 123,
+      "bairro": "Centro",
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "cep": "01000-000"
+    },
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Teclado Mecânico",
+        "quantidade": 1,
+        "preco_unitario": 199.90
+      },
+      {
+        "id": 2,
+        "nome": "Mouse Gamer",
+        "quantidade": 2,
+        "preco_unitario": 80.00
+      }
+    ],
+    "pagamento": {
+      "metodo": "pix",
+      "confirmado": true
+    }
+  }
+}
